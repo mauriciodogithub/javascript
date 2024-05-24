@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro script</title>
+    <style>
+        body {
+            background-color: #6969db;
+            color: white;
+            font-family: Arial;
+            font-size: 20pt;
+        }
+        
+        h1 {
+            color: #f7fb06;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Olá, mundo!
+    </h1>
+    <p>
+        Já me livrei da maldição!
+    </p>
+    <script>
+        var $n1 = Number(prompt('digite um número')) // campo para digitar peguntando um número
+        var $n2 = Number(prompt('digite outro número')) // campo para outro número
+        var $soma = $n1 + $n2
+        alert(`A soma entre ${$n1} e ${$n2} é ${$soma}`) // concatenação
+        var strnumero =  String($soma)
+        document.writeln(`Esse é um exempro de string ${strnumero}`)
+        // number + number == adição
+        // +string + string == concatenação
+        // let $s = `Javascript`
+        // alert(`Eu estou aprendendo ${$s}`)
+    </script>
+</body>
+</html>
